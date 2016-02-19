@@ -11,11 +11,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.4'
-  gem 'factory_girl_rails', '~> 4.5'
-  gem 'capybara', '~> 2.5'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'capybara'
   gem 'byebug'
-  gem 'faker', '~> 1.6.1'
+  gem 'faker'
+  gem 'guard-rspec'
 end
 
 group :development do
@@ -24,5 +25,5 @@ group :development do
 end
 
 group :test do
-  gem 'database_cleaner', '~> 1.5'
+  gem 'database_cleaner'
 end
